@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Gratitude</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-gradient"></div>
+    <div class="container">
+        <header>
+            <h1>Daily Gratitude</h1>
+            <p>Reflect on the good.</p>
+        </header>
+
+        <div class="glass-card input-section">
+            <textarea id="gratitudeInput" placeholder="What are you thankful for today?"></textarea>
+            <button id="saveBtn">Save Gratitude</button>
+            <button id="exportBtn" class="secondary-btn">Export Memories</button>
+        </div>
+
+        <div class="entries-section" id="entriesList">
+            <!-- Entries will be populated here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
