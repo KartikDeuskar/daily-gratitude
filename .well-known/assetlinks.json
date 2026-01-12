@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.kartikdeuskar.twa",
+        "sha256_cert_fingerprints": ["55:38:8B:FD:B1:B0:2D:69:E2:F5:E2:C3:8D:A1:E8:AD:E3:0E:AE:98:99:7A:22:69:BD:54:B9:FD:BC:80:35:58"]
+      }
+    }]
